@@ -8,18 +8,21 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'spectrum' \
   'utility' \
-  'ssh' \
   'completion' \
-  'ruby' \
-  'git' \
-  'python' \
-  'tmux' \
+  'archive' \
   'syntax-highlighting' \
-  'prompt'
-
+  'prompt' \
+  'git' \
+  'helper' \
+  'history-substring-search' \
+  'fasd' \
+  'ruby' \
+  'python' \
+  'ssh' \
+  'tmux'
 
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':prezto:module:editor' key-bindings 'vi'
+zstyle ':prezto:module:editor' key-bindings 'emacs'
 
 # Set the prompt theme to load.
 zstyle ':prezto:module:prompt' theme 'skwp'
