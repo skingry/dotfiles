@@ -8,15 +8,17 @@ zstyle ':prezto:load' pmodule \
   'directory' \
   'spectrum' \
   'utility' \
-  'ssh' \
   'completion' \
-  'ruby' \
+  'archive' \
+  'syntax-highlighting' \
+  'prompt' \
   'git' \
   'python' \
   'tmux' \
-  'syntax-highlighting' \
-  'prompt'
-
+  'helper' \
+  'history-substring-search' \
+  'fasd' \
+  'ruby'
 
 # Set the key mapping style to 'emacs' or 'vi'.
 zstyle ':prezto:module:editor' key-bindings 'vi'
