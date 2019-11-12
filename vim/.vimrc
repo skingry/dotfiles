@@ -89,3 +89,6 @@ set smartcase       " ...unless we type a capital
 
 " Use status bar even with single buffer
 set laststatus=2
+
+" Change default mouse behavior
+set mouse=a
