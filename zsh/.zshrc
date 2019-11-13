@@ -16,3 +16,4 @@ fi
 # Customize to your needs...
 # export DOCKER_HOST=tcp://0.0.0.0:2376
 export PATH=$HOME/.bin:$PATH
+alias vi="vim"
