@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-# Setup Custom Binaries
+# Install custom binaries
 cp -Rp bin ~/.bin
 
 # Setup zsh
@@ -18,6 +18,9 @@ rm ~/.zprofile
 cp zsh/.zshrc ~/.zshrc
 cp zsh/.zpreztorc ~/.zpreztorc
 cp zsh/.zprofile ~/.zprofile
+
+# Install fonts
+cp -Rp fonts ~/.fonts
 
 # Setup vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
