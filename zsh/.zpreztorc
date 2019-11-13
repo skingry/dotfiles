@@ -15,7 +15,6 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'helper' \
   'history-substring-search' \
-  'fasd' \
   'ruby' \
   'python' \
   'ssh' \
