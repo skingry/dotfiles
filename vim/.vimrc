@@ -20,7 +20,7 @@ Plugin 'chrisbra/color_highlight.git'
 Plugin 'chriskempson/base16-vim'
 
 call vundle#end()
-filetype plugin indent on
+filetype plugin indent off
 
 " ================ General Config ====================
 
