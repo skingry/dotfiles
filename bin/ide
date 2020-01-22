@@ -1,3 +1,20 @@
 #!/bin/zsh
 
-docker exec -it mailchimp-ide /bin/zsh
+ACTION=$1
+
+if [ "${ACTION}" = "" ] || [ "${ACTION}" = "connect" ]; then
+  docker exec -it mailchimp-ide /bin/zsh
+fi
+
+if [ "${ACTION}" = "start" ]; then
+  docker start mailchimp-ide
+fi
+
+if [ "${ACTION}" = "stop" ]; then
+  docker stop mailchimp-ide
+fi
+
+if [ "${ACTION}" = "create" ]; then
+  docker run -itd -v /home/skingry/Code:/home/skingry/Code --network=host --hostname=mailchimp-ide --name mailchimp-ide mailchimp-ide
+fi
+
