@@ -25,7 +25,9 @@ filetype plugin indent off
 " ================ General Config ====================
 
 set number
-syntax enable
+syntax on
+let g:solarized_termcolors=256
+set t_Co=256
 set background=dark
 colorscheme solarized
 
