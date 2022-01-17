@@ -15,9 +15,11 @@ done
 rm ~/.zshrc
 rm ~/.zpreztorc
 rm ~/.zprofile
+rm ~/.p10k.zsh
 cp zsh/.zshrc ~/.zshrc
 cp zsh/.zpreztorc ~/.zpreztorc
 cp zsh/.zprofile ~/.zprofile
+cp zsh/.p10k.zsh ~/.p10k.zsh
 
 # Install fonts
 cp -Rp fonts ~/.fonts

@@ -17,3 +17,8 @@ fi
 # export DOCKER_HOST=tcp://0.0.0.0:2376
 export PATH=$HOME/.bin:$PATH
 alias vi="vim"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+prompt powerlevel10k
