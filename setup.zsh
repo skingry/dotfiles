@@ -15,6 +15,7 @@ rm ~/.zshrc
 rm ~/.zpreztorc
 rm ~/.zprofile
 rm ~/.p10k.zsh
+
 cp zsh/.zshrc ~/.zshrc
 cp zsh/.zpreztorc ~/.zpreztorc
 cp zsh/.zprofile ~/.zprofile
@@ -35,3 +36,8 @@ cp git/.gitconfig.user ~/.gitconfig.user
 
 # Setup tmux
 cp tmux/.tmux.conf ~/.tmux.conf
+
+# install iTerm preferences if on MacOS
+if [ "$(uname)" = "Darwin" ]; then
+  cp terminal-configs/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
+fi

@@ -22,3 +22,10 @@ alias vi="vim"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 prompt powerlevel10k
+
+# GnuPG Settings
+export GPG_TTY=$(tty)
+
+if [ $(which gpgconf) ]; then
+  gpgconf --launch gpg-agent
+fi
