@@ -42,7 +42,3 @@ if [ "$(uname)" = "Darwin" ]; then
   cp terminal-configs/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 fi
 
-# install Gnome Terminal preferences if on Linux
-if [ "$(uname)" = "Linux" ]; then
-  cat terminal-configs/gterminal.profiles | dconf load /org/gnome/terminal/legacy/profiles:/
-fi
