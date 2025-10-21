@@ -1,7 +1,7 @@
 [user]
   name = Seth Kingry
   email = sjkingry@gmail.com
-  signingkey = C7558EF8
+  signingkey = EFB990C4
 [commit]
   gpgsign = true
 [tag]
