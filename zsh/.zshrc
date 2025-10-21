@@ -29,3 +29,8 @@ export GPG_TTY=$(tty)
 if [ $(which gpgconf) ]; then
   gpgconf --launch gpg-agent
 fi
+
+if [ $(which neofetch) ]; then
+  echo
+  neofetch
+fi
