@@ -16,26 +16,26 @@ rm ~/.zpreztorc
 rm ~/.zprofile
 rm ~/.p10k.zsh
 
-cp zsh/.zshrc ~/.zshrc
-cp zsh/.zpreztorc ~/.zpreztorc
-cp zsh/.zprofile ~/.zprofile
-cp zsh/.p10k.zsh ~/.p10k.zsh
+cp zsh/zshrc ~/.zshrc
+cp zsh/zpreztorc ~/.zpreztorc
+cp zsh/zprofile ~/.zprofile
+cp zsh/p10k.zsh ~/.p10k.zsh
 
 # Install fonts
 cp -Rp fonts ~/.fonts
 
 # Setup vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-cp vim/.vimrc ~/.vimrc
+cp vim/vimrc ~/.vimrc
 vim +PluginInstall +qall
 
 # Setup Git
-cp git/.gitconfig ~/.gitconfig
-cp git/.gitignore ~/.gitignore
-cp git/.gitconfig.user ~/.gitconfig.user
+cp git/gitconfig ~/.gitconfig
+cp git/gitignore ~/.gitignore
+cp git/gitconfig.user ~/.gitconfig.user
 
 # Setup tmux
-cp tmux/.tmux.conf ~/.tmux.conf
+cp tmux/tmux.conf ~/.tmux.conf
 
 # install iTerm preferences if on MacOS
 if [ "$(uname)" = "Darwin" ]; then
