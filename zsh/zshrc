@@ -30,7 +30,8 @@ if [ $(which gpgconf) ]; then
   gpgconf --launch gpg-agent
 fi
 
-if [ $(which neofetch) ]; then
+if [ $(which fastfetch) ]; then
   echo
-  neofetch
+  fastfetch
+  echo
 fi
